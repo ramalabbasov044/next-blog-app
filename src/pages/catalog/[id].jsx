@@ -12,7 +12,7 @@ let Product = ({ data }) => {
         let localData = localStorage.getItem("data");
         let updatedData = localData ? JSON.parse(localData) : [];
 
-        const isItemInCart = updatedData.some(item => item.id === item.id);
+        const isItemInCart = updatedData.some(hasItem => hasItem.id === item.id);
 
         if (!isItemInCart) {
             updatedData.push(item);

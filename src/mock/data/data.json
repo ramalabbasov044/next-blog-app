@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "count": 1,
+        "maxCount": 20,
+        "price": 2099,
+        "title": "Iphone 14 pro",
+        "image": "https://t-mobile.scene7.com/is/image/Tmusprod/Apple-iPhone-14-Pro-Max-Space-Black-frontimage"
+    },
+    {
+        "id": 2,
+        "count": 1,
+        "maxCount": 20,
+        "price": 1799,
+        "title": "Iphone 13 pro",
+        "image": "https://kontakt.az/media/catalog/product/cache/b34559cb8eb520f2bea0d3245ba154fd/5/3/530303-Product-0-I-637672995748668994_800x800-1-min_1_1_1_1_1_1_1.png"
+    },
+    {
+        "id": 3,
+        "count": 1,
+        "maxCount": 10,
+        "price": 1399,
+        "title": "Iphone 12 pro",
+        "image": "https://kontakt.az/media/catalog/product/cache/b34559cb8eb520f2bea0d3245ba154fd/_/8/_85__23.png"
+    },
+    {
+        "id": 4,
+        "count": 1,
+        "maxCount": 10,
+        "price": 999,
+        "title": "Iphone 11",
+        "image": "https://www.mgstore.az/image/cache/catalog/productimage/Apple%20iPhone%2011%2064GB%20White-400x400.jpg"
+    }
+]

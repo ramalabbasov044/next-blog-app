@@ -9,15 +9,19 @@ let Product = ({ data }) => {
   const { push , back } = useRouter();
 
   const addBasket = (item) => {
-    let localData = localStorage.getItem("data");
+        let localData = localStorage.getItem("data");
+        let updatedData = localData ? JSON.parse(localData) : [];
 
-    let updatedData = localData ? JSON.parse(localData) : []
-    updatedData.push(item);
+        const isItemInCart = updatedData.some(existingItem => existingItem.id === item.id);
 
-    localStorage.setItem("data", JSON.stringify(updatedData));
+        if (!isItemInCart) {
+            updatedData.push(item);
+            localStorage.setItem("data", JSON.stringify(updatedData));
+        }
 
-    push("/basket")
-}
+        push("/basket");
+    }
+
 
   
   return (
